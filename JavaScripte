@@ -1,0 +1,8 @@
+const person={
+    name: "Khanim",
+    surname: "Huseynova",
+getFullName: function () {
+    return this.name + "" + this.surname;
+    }
+}
+console.log(person);
